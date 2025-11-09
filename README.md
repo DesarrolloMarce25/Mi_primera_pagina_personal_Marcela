@@ -7,19 +7,14 @@ En esta pagina compartire lo aprendido en clase sobre programacion y el uso de h
 **Temas vistos en clase**
 
 En las sesiones aprendimos conceptos básicos sobre programación, tales como:
-
 Qué es un programa:
 Es un conjunto de instrucciones que la computadora ejecuta para realizar una tarea.
-
 Variables:
 Son espacios de memoria donde se guarda información que puede cambiar durante la ejecución del programa.
-
 Tipos de datos:
 Enteros, cadenas, flotantes, booleanos, entre otros.
-
 Entrada y salida de datos:
 Uso de funciones como input() y print().
-
 Estructuras de control:
 Permiten tomar decisiones (if, else) o repetir acciones (for, while).
 
