@@ -1,4 +1,4 @@
-# Mi_primera_pagina_personal_Marcela
+<p align="center">Mi_primera_pagina_personal_Marcela</p>
 
 Bienvenidos a mi primera pagina en GitHUb Pages 
 Soy Marcela Muñoz, estudiante del programa desarrollo del software
@@ -39,7 +39,3 @@ También reforcé los conceptos básicos de Python y el uso ético de la intelig
 ## *Referencias de IA*
 - ChatGPT: conversación sobre realizar los primeros pasos de la pagina en Githun (https://chat.openai.com/share/...)
 - Copilot: sugerencia de formato Markdown
-
-
-
-
