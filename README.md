@@ -26,9 +26,19 @@ En esta pagina compartire lo aprendido en clase sobre programacion y el uso de h
 
 ## *Ejemplo*
 
-nombre = input("¿Cómo te llamas? ")  
-mensaje = f"¡Hola, {nombre}! Bienvenido a mi primera página en GitHub Pages."  
-print(mensaje)
+print("¡Hola, mundo! Esta es mi primera página en GitHub.")  
+nombre = "Marcela"
+edad = 20
+es_estudiante = True  
+
+print(f"Nombre: {nombre}")
+print(f"Edad: {edad}")
+print(f"¿Es estudiante?: {es_estudiante}")  
+
+def saludar(nombre):
+    return f"Hola, {nombre}. ¡Bienvenido a mi página en GitHub!"
+
+print(saludar("Marcela")) 
 
 ## *Reflexión*
 
