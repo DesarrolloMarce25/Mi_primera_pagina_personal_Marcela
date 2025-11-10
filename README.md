@@ -1,4 +1,4 @@
-## <b>Mi_primera_pagina_personal_Marcela</b>
+## Mi_primera_pagina_personal_Marcela
 
 Bienvenidos a mi primera pagina en GitHUb Pages 
 Soy Marcela Muñoz, estudiante del programa desarrollo del software
