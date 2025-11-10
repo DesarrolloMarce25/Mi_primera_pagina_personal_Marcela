@@ -28,7 +28,7 @@ En esta pagina compartire lo aprendido en clase sobre programacion y el uso de h
 
 print("¡Hola, mundo! Esta es mi primera página en GitHub.")  
 nombre = "Marcela"
-edad = 20
+edad = 39
 es_estudiante = True  
 
 print(f"Nombre: {nombre}")
