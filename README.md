@@ -6,17 +6,23 @@ En esta pagina compartire lo aprendido en clase sobre programacion y el uso de h
 
 ## *Temas vistos en clase*
 
-En las sesiones aprendimos conceptos básicos sobre programación, tales como:
-Qué es un programa:
-Es un conjunto de instrucciones que la computadora ejecuta para realizar una tarea.
-Variables:
-Son espacios de memoria donde se guarda información que puede cambiar durante la ejecución del programa.
-Tipos de datos:
-Enteros, cadenas, flotantes, booleanos, entre otros.
-Entrada y salida de datos:
-Uso de funciones como input() y print().
-Estructuras de control:
-Permiten tomar decisiones (if, else) o repetir acciones (for, while).
+#Proyecto del software  
+#Fundamentos de la programacion 
+#Hardware - software
+#Elementos: Variables estructuras datos 
+#Controladores flujo
+
+#Las tablas que implementan la suma aritmetica donde 
+*0* es falso 
+*1* verdadero
+
+A   B   lo que sobra   suma 
+0   0       0            0
+0   1       0            1   
+1   0       0            1
+1   1       1            0
+
+#Programar con la instalacion del aplicativo colaboraty interfaz de colaboracion (Colab)
 
 ## *Ejemplo*
 
