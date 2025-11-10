@@ -27,7 +27,7 @@ En esta pagina compartire lo aprendido en clase sobre programacion y el uso de h
 | 1 | 0 | 0             | 1    |
 | 1 | 1 | 1             | 0    |
 
-#Programar con la instalacion del aplicativo colaboraty interfaz de colaboracion (Colab)
+# Programar con la instalacion del aplicativo colaboraty interfaz de colaboracion (Colab)
 
 ## *Ejemplo*
 
