@@ -22,7 +22,8 @@ En esta pagina compartire lo aprendido en clase sobre programacion y el uso de h
 | 1 | 0 | 0             | 1    |
 | 1 | 1 | 1             | 0    |
 
-- Programar con la instalacion del aplicativo colaboraty interfaz de colaboracion (Colab) 
+- Programar con la instalacion del aplicativo colaboraty interfaz de colaboracion (Colab)
+
 ## *Ejemplo*
 
 nombre = input("¿Cómo te llamas? ")
@@ -39,3 +40,5 @@ También reforcé los conceptos básicos de Python y el uso ético de la intelig
 
 - ChatGPT: conversación sobre realizar los primeros pasos de la pagina en Githun (https://chat.openai.com/share/...)
 - Copilot: sugerencia de formato Markdown
+
+  
