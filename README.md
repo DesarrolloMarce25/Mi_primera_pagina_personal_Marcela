@@ -1,10 +1,10 @@
-<p align="center">Mi_primera_pagina_personal_Marcela</p>
+## <p align="center">Mi_primera_pagina_personal_Marcela</p>
 
 Bienvenidos a mi primera pagina en GitHUb Pages 
 Soy Marcela Muñoz, estudiante del programa desarrollo del software
 En esta pagina compartire lo aprendido en clase sobre programacion y el uso de herramientas e inteligencia artificial 
 
-## *Temas vistos en clase*
+*Temas vistos en clase*
 
 - Proyecto del software  
 - Fundamentos de la programacion  
