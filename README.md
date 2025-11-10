@@ -6,15 +6,15 @@ En esta pagina compartire lo aprendido en clase sobre programacion y el uso de h
 
 ## *Temas vistos en clase*
 
-## Proyecto del software  
+# Proyecto del software  
 
-## Fundamentos de la programacion 
+# Fundamentos de la programacion 
 
-## Hardware - software
+# Hardware - software
 
-## Elementos: Variables estructuras datos 
+# Elementos: Variables estructuras datos 
 
-## Controladores flujo
+# Controladores flujo
 
 ## Las tablas que implementan la suma aritmetica donde 
 *0* es falso 
