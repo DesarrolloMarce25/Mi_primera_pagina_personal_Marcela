@@ -295,4 +295,8 @@ En cumplimiento del uso responsable de la inteligencia artificial en el curso, d
 
 No se utilizó ninguna otra herramienta adicional para la generación del código o el contenido de la entrada.
 
+
+
+*[Emcapsulando la libreria turtle](./tareas/tarea3.md)
+
   
