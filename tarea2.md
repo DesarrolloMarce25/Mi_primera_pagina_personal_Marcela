@@ -16,6 +16,16 @@ t.forward(100)
 
 turtle.done()
 
+
+## Ejercicio 1
+**Enunciado:**  
+Escribe un programa que…
+
+**Solución en Python:**
+```python
+print("Hola, mundo")
+
+
 <img width="1920" height="1049" alt="image" src="https://github.com/user-attachments/assets/266441c7-74b4-48fb-87ff-f4e3513451db" />
 
 
