@@ -55,8 +55,8 @@ También reforcé los conceptos básicos de Python y el uso ético de la intelig
 
 
 
+*[Encapsulando la libreria turtle](./tareas/tarea2.md)
 
-
-*[Emcapsulando la libreria turtle](./tareas/tarea3.md)
+*[Encapsulando la libreria turtle](./tareas/tarea3.md)
 
   
