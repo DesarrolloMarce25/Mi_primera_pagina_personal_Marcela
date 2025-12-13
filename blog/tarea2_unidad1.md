@@ -60,6 +60,8 @@ simular_avance_tortuga()
 
 <img width="1283" height="837" alt="image" src="https://github.com/user-attachments/assets/36beca10-980a-42a2-99cf-78d4128bc3c9" />
 
+**Explicacion:** El objetivo es simular el movimiento de una tortuga sin usar gráficos ni la librería turtle, únicamente usando texto en la terminal con print() e interacción con el usuario mediante input().
+La tortuga “avanza” mostrando guiones (-) y una flecha (->) que indican la dirección del movimiento.
 
 
 ## 🐢 Reto 2: Crea el rastro de una tortuga moviéndose hacia abajo usando únicamente print() e input().
@@ -77,7 +79,8 @@ simular_avance_tortuga()
 
 <img width="1327" height="929" alt="image" src="https://github.com/user-attachments/assets/a6280fd7-0897-47cc-b6b3-4d2c79c4817d" />
 
-
+**Explicacion:** El objetivo de este ejercicio es simular el movimiento vertical de una tortuga hacia abajo usando únicamente print() para mostrar el rastro y input() para recibir la cantidad de pasos desde el usuario.
+No se usan gráficos, solo texto en la terminal.
 
 ## 🐢 Reto 3: Girar y dibujar usando solo print() e input()
 
@@ -95,6 +98,9 @@ simular_avance_tortuga()
 
 
 <img width="1476" height="988" alt="image" src="https://github.com/user-attachments/assets/5edae41d-6684-44a1-8a8d-8985c9a4f66a" />
+
+**Explicacion:** El objetivo de este ejercicio es mostrar que la tortuga no solo puede avanzar, sino también girar, permitiendo dibujar trayectorias más complejas combinando movimientos rectos y giros.
+En este caso, el movimiento forma una “L” gracias a un giro de 90 grados.
 
 
 ## 🐢 Reto 4: Encapsula los comportamientos anteriores usando funciones
@@ -117,6 +123,10 @@ simular_avance_tortuga()
     abajo(3)
 
 <img width="1252" height="842" alt="image" src="https://github.com/user-attachments/assets/54c84113-9b74-4ed1-886a-777fc1d5755c" />
+
+**Explicacion:** El objetivo de este reto es encapsular los movimientos de la tortuga en funciones, representando su comportamiento únicamente con texto en la terminal, sin usar gráficos.
+Se reutilizan los comportamientos aprendidos en retos anteriores: avanzar y bajar.
+
 
 ## 🐢 Reto 5: La tortuga baja las escalas
 
@@ -142,13 +152,8 @@ simular_avance_tortuga()
 
 <img width="1144" height="895" alt="image" src="https://github.com/user-attachments/assets/2e4c7206-bf4c-4be8-8535-2137f3da5456" />
 
+**Explicacion:** El objetivo de este reto es simular una escalera descendente usando únicamente texto en la terminal, asegurando que cada escalón conserve la posición horizontal acumulada y que se dibujen correctamente los tramos horizontales y verticales.
 
 
-    
-
-
-
-
-
-
-
+**Referencia IA**
+OpenAI. (2025). ChatGPT [Modelo de lenguaje de gran escala]. OpenAI. https://chat.openai.com/
