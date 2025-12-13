@@ -156,4 +156,5 @@ Se reutilizan los comportamientos aprendidos en retos anteriores: avanzar y baja
 
 
 **Referencia IA**
+
 OpenAI. (2025). ChatGPT [Modelo de lenguaje de gran escala]. OpenAI. https://chat.openai.com/
