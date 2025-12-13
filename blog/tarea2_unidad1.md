@@ -120,23 +120,31 @@ simular_avance_tortuga()
 
 ## 🐢 Reto 5: La tortuga baja las escalas
 
-**Enunciado:** 
+**Enunciado:** Cada escalón debe conservar la posición horizontal acumulada y dibujar correctamente tanto el tramo horizontal como el vertical.
 
-    # Movimiento hacia la derecha
+    def adelante(espacios):
+    print(" " * espacios + "----->")
 
-    def adelante(n):
-    print("→ " * n)
+    def abajo(espacios):
+    # La flecha vertical empieza donde termina la horizontal
+    print(" " * (espacios + 5) + "|")
+    print(" " * (espacios + 5) + "|")
+    print(" " * (espacios + 5) + "v")
 
-# Movimiento hacia abajo, alineado con el final del tramo horizontal
+    escalones = 3
+    espacios = 0
 
-    def abajo(n):
-    espacio = " " * (3 * n - 1)  # Ajusta el espacio para alinear ↓ con la última flecha →
-    for _ in range(n):
-        print(espacio + "↓")
+    for i in range(escalones):
+    adelante(espacios)
+    abajo(espacios)
+    espacios += 5
 
-# Ejemplo de uso
-    adelante(5)
-    abajo(3)
+
+<img width="1144" height="895" alt="image" src="https://github.com/user-attachments/assets/2e4c7206-bf4c-4be8-8535-2137f3da5456" />
+
+
+
+    
 
 
 
