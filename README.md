@@ -57,6 +57,6 @@ También reforcé los conceptos básicos de Python y el uso ético de la intelig
 
 *[Actividad de aprendizaje Tarea 02 Ejercicios de la Unidad 1](blog/tarea2_unidad1.md)
 
-*[Encapsulando la libreria turtle](./tareas/tarea3.md)
+*[Práctica: Evolución de Mini-Turtle](blog/tarea3.md)
 
   
