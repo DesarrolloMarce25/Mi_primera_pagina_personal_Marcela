@@ -59,47 +59,40 @@ El usuario no ve drawer_logic.py
 
 
 3. Prueba (main.py): Crea un script que importe las funciones, dibuje una escalera, use reiniciar() y dibuje algo nuevo.
-
-```
-   
-3️⃣ main.py → Programa de prueba (escalera)
-
 Aquí se demuestra que el paquete funciona.
 
-# main.py
+```
 
-from mini_turtle import adelante, abajo, reiniciar
+  # main.py
 
-# Dibujar una escalera
-adelante(2)
-abajo()
-adelante(2)
-abajo()
-adelante(2)
-abajo()
+  from mini_turtle import adelante, abajo, reiniciar
 
-print("\nReiniciando...\n")
-reiniciar()
+  # Dibujar una escalera
+  adelante(2)
+  abajo()
+  adelante(2)
+  abajo()
+  adelante(2)
+  abajo()
 
-# Dibujar algo nuevo
-adelante(4)
-abajo()
+  print("\nReiniciando...\n")
+  reiniciar()
 
-🧠 ¿Qué estás demostrando con este ejercicio?
+  # Dibujar algo nuevo
+  adelante(4)
+  abajo()
+  
+```
 
-Cuando lo expliques, puedes decir:
-
-Separé la lógica del dibujo en un módulo interno
-
+Cuando lo expliques, puedes decir: Separé la lógica del dibujo en un módulo interno 
 Creé una interfaz limpia para el usuario
-
 Usé estado global controlado
-
 Apliqué modularidad y encapsulación
 
 El paquete es reutilizable y escalable
 
 ✨ Resultado visual esperado (ejemplo)
+
   ----->
        |
     ----->
@@ -110,3 +103,5 @@ El paquete es reutilizable y escalable
 Reiniciando...
 
     ----->
+
+    
