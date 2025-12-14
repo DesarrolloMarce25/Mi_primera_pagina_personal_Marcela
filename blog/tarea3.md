@@ -62,3 +62,51 @@ El usuario no ve drawer_logic.py
 
 ```
    
+3️⃣ main.py → Programa de prueba (escalera)
+
+Aquí se demuestra que el paquete funciona.
+
+# main.py
+
+from mini_turtle import adelante, abajo, reiniciar
+
+# Dibujar una escalera
+adelante(2)
+abajo()
+adelante(2)
+abajo()
+adelante(2)
+abajo()
+
+print("\nReiniciando...\n")
+reiniciar()
+
+# Dibujar algo nuevo
+adelante(4)
+abajo()
+
+🧠 ¿Qué estás demostrando con este ejercicio?
+
+Cuando lo expliques, puedes decir:
+
+Separé la lógica del dibujo en un módulo interno
+
+Creé una interfaz limpia para el usuario
+
+Usé estado global controlado
+
+Apliqué modularidad y encapsulación
+
+El paquete es reutilizable y escalable
+
+✨ Resultado visual esperado (ejemplo)
+  ----->
+       |
+    ----->
+         |
+      ----->
+           |
+
+Reiniciando...
+
+    ----->
