@@ -52,11 +52,11 @@ También reforcé los conceptos básicos de Python y el uso ético de la intelig
 - Copilot: sugerencia de formato Markdown
 
 
-
+## *Tareas a entregar*
 
 
 *[Actividad de aprendizaje Tarea 02 Ejercicios de la Unidad 1](blog/tarea2_unidad1.md)
 
-*[Práctica: Evolución de Mini-Turtle](blog/tarea3.md)
+*[Actividad de aprendizaje Tarea 03 Práctica: Evolución de Mini-Turtle](blog/tarea3.md)
 
   
