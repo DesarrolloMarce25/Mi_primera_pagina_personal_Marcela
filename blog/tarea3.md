@@ -93,15 +93,122 @@ El paquete es reutilizable y escalable
 
 ✨ Resultado visual esperado (ejemplo)
 
-  ----->
-       |
-    ----->
-         |
       ----->
            |
-
-Reiniciando...
+            ----->
+                  |
+                    ----->
+                         |
+   ``` 
+  Reiniciando...
 
     ----->
 
-    
+```
+
+**Ejercicio 2: Versión Orientada a Objetos (POO)**
+
+#El objetivo es refactorizar el paquete anterior utilizando Clases y Objetos. Deberá eliminar las variables globales y aplicar Encapsulamiento.
+
+Requerimientos Funcionales
+*Clase Turtle: Toda la lógica debe estar dentro de una clase Tortuga.
+*Encapsulamiento: El estado (posicion_x) debe ser un atributo de instancia (self.posicion_x), inicializado en 0 en el constructor. Prohibido usar global.
+*Interfaz de Objetos: El usuario debe importar la Clase
+```
+from mini_turtle_oo import Tortuga
+```
+
+*Independencia: Se debe poder crear múltiples tortugas (objetos) que mantengan sus posiciones de forma independiente.
+
+ ##Estructura de Archivos##
+
+```
+   mini_turtle_oo_task/
+  │
+  ├── mini_turtle_oo/
+  │   ├── __init__.py
+  │   └── turtle_class.py
+  │
+  ├── main.py
+  └── README.md   (opcional)
+
+```
+
+## Pasos de Implementación
+
+1. Clase (turtle_class.py): Define class Totuga. Usa __init__ para inicializar self.posicion_x. Convierte las funciones en métodos (usando self).
+```
+  mini_turtle_oo/turtle_class.py
+```
+self
+```
+  # turtle_class.py
+
+  class Tortuga:
+    def __init__(self):
+        self.posicion_x = 0  # estado encapsulado
+
+    def adelante(self, pasos):
+        print(" " * self.posicion_x + "----->")
+        self.posicion_x += pasos
+
+    def abajo(self):
+        print(" " * (self.posicion_x + 5) + "|")
+
+    def reiniciar(self):
+        self.posicion_x = 0
+```
+
+  Cumple: 
+  self.posicion_x
+  Encapsulamiento
+  Métodos con self
+  Sin variables globales
+
+
+2. Interfaz (__init__.py): Expone la clase Tortuga.
+```
+mini_turtle_oo/__init__.py
+```
+Permite importar la clase directamente.
+
+```
+
+from .turtle_class import Tortuga
+__all__ = ["Tortuga"]
+
+```
+
+Funciona: 
+from mini_turtle_oo import Tortuga
+
+
+3. Prueba (main.py): Importante: Crea dos objetos (t1 = Turtle() y t2 = Turtle()). Haz que se muevan distancias diferentes y demuestra que no interfieren entre sí.
+```
+main.py
+```
+Independencia entre tortugas 
+
+```
+  from mini_turtle_oo import Tortuga
+
+  # Crear dos objetos independientes
+  t1 = Tortuga()
+  t2 = Tortuga()
+
+  print("Tortuga 1:")
+  t1.adelante(5)
+  t1.abajo()
+  t1.adelante(5)
+
+  print("\nTortuga 2:")
+  t2.adelante(10)
+  t2.abajo()
+
+  print("\nReiniciando Tortuga 1:")
+  t1.reiniciar()
+  t1.adelante(5)
+
+```
+
+Cada objeto mantiene su propia posicion_x
